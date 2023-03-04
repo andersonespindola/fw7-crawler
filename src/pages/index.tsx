@@ -66,14 +66,14 @@ export default function Home() {
   return (
     <>
       <Bar options={options} data={dataSet} />
-      <Table
+      {/* <Table
         aria-label="Top empresas"
         css={{
           height: 'auto',
           minWidth: '100%'
         }}
-      >
-        <Table.Header>
+      > */}
+      {/* <Table.Header>
           <Table.Column>Nome</Table.Column>
           <Table.Column>Crescimento</Table.Column>
         </Table.Header>
@@ -91,7 +91,7 @@ export default function Home() {
               )
             })}
         </Table.Body>
-      </Table>
+      </Table> */}
     </>
   )
 }
